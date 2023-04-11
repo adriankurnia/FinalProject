@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">Code K</string>
+
+    <!-- Login -->
+    <string name="type_your_password">Type Your Password</string>
+    <string name="type_your_email">Type your Email</string>
+    <string name="sign_in">Sign in</string>
+    <string name="not_registered_yet_sign_up">Not Registered Yet , Sign Up !</string>
+
+    <!-- Register -->
+    <string name="register">Register</string>
+    <string name="type_your_first_name">Type your first name</string>
+    <string name="type_your_last_name">Type your last name</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_have_an_account_login_here">Already have an account? Login Here!</string>
+
+    <!-- Home -->
+    <string name="quiz">Quiz</string>
+    <string name="achievement">achievement</string>
+    <string name="leaderoard">Leaderoard</string>
+    <string name="profile">Profile</string>
+
+    <!-- Quiz -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="category">Category</string>
+    <string name="basic_concepts">Basic Concepts</string>
+    <string name="control_flow">Control Flow</string>
+    <string name="function">Function</string>
+
+    <!-- Profile -->
+    <string name="logout">logout</string>
+    <string name="shop">Shop</string>
+    <string name="inventory">Inventory</string>
+    <string name="_100">100</string>
+    <string name="buy">Buy</string>
+    <string name="avatar_inventory">Avatar Inventory</string>
+    <string name="leaderboard">Leaderboard</string>
+
+    <!-- Quiz Basic -->
+    <string name="dataType">Data Type :</string>
+    <string name="basic_modul1">
+        - Int : to store integer and whole numbers including negative values
+        <br />\n- Long : to store large numbers
+        <br />\n- Float and Double : to store decimal
+        <br />\n- Char : to store a single character
+        <br />\n- String : Strings can be used to store any keyboard character in almost any length
+        <br />\n- Boolean : only have 2 values true or false
+    </string>
+    <string name="basic_modul2">
+        + for addition
+        \n-  for subtraction
+        \n*  for multiplication
+        \n/  for division
+        \n%  for modulus
+        \n++ Increment
+        \n—  Decrement
+    </string>
+    <string name="the_code_above_is_an_example_of_declaring_variables">The code above is an example of declaring variables</string>
+    <string name="back">back</string>
+    <string name="next">next</string>
+    <string name="the_code_above_is_an_example_of_arithmetic_operator">The code above is an example of arithmetic operator</string>
+    <string name="arithmetic_operators">Arithmetic Operators</string>
+    <string name="the_code_above_is_an_example_of_while_loop">The code above is an example of while loop</string>
+    <string name="while_loop_will_loops_the_code_in_the_body_as_long_as_the_expression_evaluated_to_true_like_the_example_above_the_code_will_continue_to_print_hello_world_as_long_is_the_x_more_than_0">While loop will loops the code in the body as long as the expression evaluated to true. Like the example above, the code will continue to print Hello,World!!! as long is the x more than 0.</string>
+    <string name="while_loop">While Loop</string>
+    <string name="if_is">If is used to specify a code to be executed when the specified condition is true. In the example above the code will first initalize the variable time then in the if statement it will check if time is less than 12 or not, if it was less than 12 than it will print am and if its more than 12 it will print pm</string>
+    <string name="if_statement">IF Statement</string>
+    <string name="the_code_above_is_an_example_of_if_statement">The code above is an example of IF Statement</string>
+    <string name="the_code_above_is_an_example_of_do_while_loops">The code above is an example of Do-While Loops</string>
+    <string name="do_while_loop">Do-While Loop</string>
+    <string name="do_while_loop_works_in_the_same_way_as_the_ordinary_while_loop_except_the_pressence_of_a_do_block_will_guarantees_that_the_code_will_execute_atleast_once_even_when_the_condition_is_not_true_the_example_code_above_will_have_an_output_of_y_11">Do-while loop works in the same way as the ordinary while loop except, the pressence of a do block will guarantees that the code will execute atleast once, even when the condition is not true. The example code above will have an output of y = 11.</string>
+    <string name="the_code_above_is_an_example_of_for_loops">The code above is an example of For Loops</string>
+    <string name="for_loop">For Loop</string>
+    <string name="for_loop_is_a_control_flow_statement_which_allow_code_to_be_executed_repeatedly_in_the_example_code_above_the_code_will_continue_to_print_the_output_for_every_value_in_the_list">For loop is a control flow statement which allow code to be executed repeatedly. In the example code above, the code will continue to print the output for every value in the list.</string>
+    <string name="the_code_above_is_an_example_of_break">The code above is an example of Break</string>
+    <string name="breakControl">Break</string>
+    <string name="break_can_be_used_when_the_code_need_to_break_out_of_a_loop_earlier_than_the_condition_of_loop_specifies_in_the_example_above_the_code_will_continue_to_print_the_output_in_the_loop_until_the_variable_countdown_is_5_when_countdown_is_equal_to_5_the_loop_will_stop">Break can be used when the code need to break out of a loop earlier than the condition of loop specifies. In the example above the code will continue to print the output in the loop until the variable countDown is 5, when countDown is equal to 5 the loop will stop.</string>
+    <string name="the_code_above_is_an_example_of_continue">The code above is an example of Continue</string>
+    <string name="continueControl">Continue</string>
+    <string name="example_code">Example Code</string>
+    <string name="basic_function">Basic Function</string>
+    <string name="the_code_above_is_an_example_of_a_very_simple_function_and_how_to_call_it_you_can_call_the_function_like_in_the_second_image_and_it_will_run_the_function_and_print_hello_world">The code above is an example of a very simple function and how to call it. You can call the function like in the second image, and it will run the function and print Hello World!!!.</string>
+    <string name="function_parameter">Function Parameter</string>
+    <string name="the_code_above_is_an_example_of_a_function_with_parameter_when_calling_the_function_the_function_will_expect_a_value_that_match_with_its_parameter_in_the_example_function_it_expect_an_int_parameter_so_to_call_the_function_you_can_do_like_in_the_second_image">The code above is an example of a function with parameter. When calling the function, the function will expect a value that match with its parameter, in the example function it expect an int parameter so to call the function you can do like in the second image.</string>
+    <string name="return_keyword">Return Keyword</string>
+    <string name="the_code_above_is_an_example_of_using_the_return_keyword_in_the_example_when_you_call_the_function_it_will_return_the_result_to_the_answer_variable">The code above is an example of using the Return Keyword. In the example when you call the function it will return the result to the answer variable.</string>
+    <string name="default_and_named_arguments">Default and Named Arguments</string>
+    <string name="default_parameter">Default parameter is where we provide a default value for a parameter that will be used if the code that calls the function does not provide it. Named argument is when the code calling a function specifies a name along with a value. When we call the function and provide a value the default parameter will still get overridden.</string>
+    <string name="test_answer">Test Answer</string>
+    <string name="total_point">Total Point</string>
+    <string name="home">Go to Home</string>
+    <string name="option">Option</string>
+    <string name="courses">courses</string>
+    <string name="go_to_quiz">Go to Quiz</string>
+    <string name="introduction">Introduction</string>
+    <string name="variables">Variables</string>
+    <string name="level_1">Level 1</string>
+    <string name="level_2">Level 2</string>
+    <string name="level_3">Level 3</string>
+</resources>

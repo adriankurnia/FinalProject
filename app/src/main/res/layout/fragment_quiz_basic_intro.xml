@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".quiz.basic.QuizBasicIntro"
+    android:background="@color/black">
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <TextView
+            android:id="@+id/dataType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:text="@string/introduction"
+            android:textSize="24sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="@dimen/_50sdp"
+            android:layout_marginStart="10dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dataType"
+            android:text="      As it is more logical to learn the basics before we write our own classes, we will learn the basics and then use it to put this new theory into practice. "
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:justificationMode="inter_word"
+            android:textAlignment="textStart"/>
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv1"
+            android:text="      Kotlin syntax is the way that we put together the language elements of Kotlin to produce code that executes. The Kotlin syntax is a combination of the words that we use and the formation of those words into sentence-like structures that is our code. "
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:justificationMode="inter_word"
+            android:textAlignment="textStart"/>
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv2"
+            android:text="      These Kotlin words are many in number but, taken in small chunks, they are certainly easier to learn than any human language. We call these words keywords. Expertise in Kotlin comes not in the number of Kotlin keywords we know how to use, but in the way that we use them."
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:justificationMode="inter_word"
+            android:textAlignment="textStart"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1/4"
+            android:textSize="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_25sdp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/backBtnBasicIntro"
+            app:layout_constraintEnd_toStartOf="@id/nextBtnBasicIntro"
+            app:layout_constraintBottom_toTopOf="@id/quizBtnBasic"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/backBtnBasicIntro"
+            android:layout_width="150dp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:background="@drawable/box"
+            android:backgroundTint="@color/Celadon_blue"
+            android:text="@string/back"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginBottom="@dimen/_20sdp"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/quizBtnBasic"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/nextBtnBasicIntro"
+            android:layout_width="150dp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:background="@drawable/box"
+            android:backgroundTint="@color/Celadon_blue"
+            android:text="@string/next"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginBottom="@dimen/_20sdp"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/quizBtnBasic"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/quizBtnBasic"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:background="@drawable/box"
+            android:backgroundTint="@color/Prussian_blue"
+            android:text="@string/go_to_quiz"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginBottom="50dp"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

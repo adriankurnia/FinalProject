@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_quiz"
+    app:startDestination="@id/quizHomePage">
+
+    <fragment
+        android:id="@+id/quizHomePage"
+        android:name="umn.ac.id.codek.quiz.QuizHomePage"
+        android:label="fragment_quiz_home_page"
+        tools:layout="@layout/fragment_quiz_home_page" >
+        <action
+            android:id="@+id/action_quizHomePage_to_quizFlowPage"
+            app:destination="@id/quizFlowPage" />
+        <action
+            android:id="@+id/action_quizHomePage_to_quizFunctionPage"
+            app:destination="@id/quizFunctionPage" />
+        <action
+            android:id="@+id/action_quizHomePage_to_quizBasicIntro"
+            app:destination="@id/quizBasicIntro" />
+    </fragment>
+    <fragment
+        android:id="@+id/quizBasicPage"
+        android:name="umn.ac.id.codek.quiz.QuizBasicPage"
+        android:label="fragment_quiz_basic_page"
+        tools:layout="@layout/fragment_quiz_basic_page" >
+        <action
+            android:id="@+id/action_quizBasicPage_to_quizBasicPage2"
+            app:destination="@id/quizBasicPage2" />
+        <action
+            android:id="@+id/action_quizBasicPage_to_quizBasicIntro2"
+            app:destination="@id/quizBasicIntro2" />
+    </fragment>
+    <fragment
+        android:id="@+id/quizFlowPage"
+        android:name="umn.ac.id.codek.quiz.QuizFlowPage"
+        android:label="fragment_quiz_flow_page"
+        tools:layout="@layout/fragment_quiz_flow_page" >
+        <action
+            android:id="@+id/action_quizFlowPage_to_quizHomePage"
+            app:destination="@id/quizHomePage" />
+        <action
+            android:id="@+id/action_quizFlowPage_to_quizFlowPage2"
+            app:destination="@id/quizFlowPage2" />
+        <action
+            android:id="@+id/action_quizFlowPage_to_playQuizFlow2"
+            app:destination="@id/playQuizFlow" />
+    </fragment>
+    <fragment
+        android:id="@+id/quizFunctionPage"
+        android:name="umn.ac.id.codek.quiz.QuizFunctionPage"
+        android:label="fragment_quiz_function_page"
+        tools:layout="@layout/fragment_quiz_function_page" >
+        <action
+            android:id="@+id/action_quizFunctionPage_to_quizHomePage"
+            app:destination="@id/quizHomePage" />
+        <action
+            android:id="@+id/action_quizFunctionPage_to_playQuizFunction"
+            app:destination="@id/playQuizFunction" />
+    </fragment>
+    <fragment
+        android:id="@+id/quizBasicPage2"
+        android:name="umn.ac.id.codek.quiz.basic.QuizBasicPage2"
+        android:label="fragment_quiz_basic_page2"
+        tools:layout="@layout/fragment_quiz_basic_page2" >
+        <action
+            android:id="@+id/action_quizBasicPage2_to_quizBasicPage"
+            app:destination="@id/quizBasicPage" />
+        <action
+            android:id="@+id/action_quizBasicPage2_to_playQuizBasic"
+            app:destination="@id/playQuizBasic" />
+    </fragment>
+    <fragment
+        android:id="@+id/quizFlowPage2"
+        android:name="umn.ac.id.codek.quiz.flow.QuizFlowPage2"
+        android:label="fragment_quiz_flow_page2"
+        tools:layout="@layout/fragment_quiz_flow_page2" >
+        <action
+            android:id="@+id/action_quizFlowPage2_to_quizFlowPage"
+            app:destination="@id/quizFlowPage" />
+        <action
+            android:id="@+id/action_quizFlowPage2_to_quizFlowPage3"
+            app:destination="@id/quizFlowPage3" />
+    </fragment>
+    <fragment
+        android:id="@+id/quizFlowPage3"
+        android:name="umn.ac.id.codek.quiz.flow.QuizFlowPage3"
+        android:label="fragment_quiz_flow_page3"
+        tools:layout="@layout/fragment_quiz_flow_page3" >
+        <action
+            android:id="@+id/action_quizFlowPage3_to_quizFlowPage2"
+            app:destination="@id/quizFlowPage2" />
+        <action
+            android:id="@+id/action_quizFlowPage3_to_quizFlowPage4"
+            app:destination="@id/quizFlowPage4" />
+    </fragment>
+    <fragment
+        android:id="@+id/quizFlowPage4"
+        android:name="umn.ac.id.codek.quiz.flow.QuizFlowPage4"
+        android:label="fragment_quiz_flow_page4"
+        tools:layout="@layout/fragment_quiz_flow_page4" >
+        <action
+            android:id="@+id/action_quizFlowPage4_to_quizFlowPage3"
+            app:destination="@id/quizFlowPage3" />
+        <action
+            android:id="@+id/action_quizFlowPage4_to_quizFlowPage5"
+            app:destination="@id/quizFlowPage5" />
+    </fragment>
+    <fragment
+        android:id="@+id/quizFlowPage5"
+        android:name="umn.ac.id.codek.quiz.flow.QuizFlowPage5"
+        android:label="fragment_quiz_flow_page5"
+        tools:layout="@layout/fragment_quiz_flow_page5" >
+        <action
+            android:id="@+id/action_quizFlowPage5_to_quizFlowPage4"
+            app:destination="@id/quizFlowPage4" />
+        <action
+            android:id="@+id/action_quizFlowPage5_to_quizFlowPage6"
+            app:destination="@id/quizFlowPage6" />
+    </fragment>
+    <fragment
+        android:id="@+id/quizFlowPage6"
+        android:name="umn.ac.id.codek.quiz.flow.QuizFlowPage6"
+        android:label="fragment_quiz_flow_page6"
+        tools:layout="@layout/fragment_quiz_flow_page6" >
+        <action
+            android:id="@+id/action_quizFlowPage6_to_quizFlowPage5"
+            app:destination="@id/quizFlowPage5" />
+        <action
+            android:id="@+id/action_quizFlowPage6_to_playQuizFlow"
+            app:destination="@id/playQuizFlow" />
+    </fragment>
+    <fragment
+        android:id="@+id/playQuizBasic"
+        android:name="umn.ac.id.codek.quiz.basic.PlayQuizBasic"
+        android:label="fragment_play_quiz_basic"
+        tools:layout="@layout/fragment_play_quiz_basic" >
+        <action
+            android:id="@+id/action_playQuizBasic_to_quizScorePage"
+            app:destination="@id/quizScorePage" />
+    </fragment>
+    <fragment
+        android:id="@+id/quizScorePage"
+        android:name="umn.ac.id.codek.quiz.QuizScorePage"
+        android:label="fragment_quiz_score_page"
+        tools:layout="@layout/fragment_quiz_score_page" />
+    <fragment
+        android:id="@+id/playQuizFlow"
+        android:name="umn.ac.id.codek.quiz.flow.PlayQuizFlow"
+        android:label="fragment_play_quiz_flow"
+        tools:layout="@layout/fragment_play_quiz_flow" >
+        <action
+            android:id="@+id/action_playQuizFlow_to_quizScorePage"
+            app:destination="@id/quizScorePage" />
+    </fragment>
+    <fragment
+        android:id="@+id/playQuizFunction"
+        android:name="umn.ac.id.codek.quiz.PlayQuizFunction"
+        android:label="fragment_play_quiz_function"
+        tools:layout="@layout/fragment_play_quiz_function" >
+        <action
+            android:id="@+id/action_playQuizFunction_to_quizScorePage"
+            app:destination="@id/quizScorePage" />
+    </fragment>
+    <fragment
+        android:id="@+id/quizBasicIntro"
+        android:name="umn.ac.id.codek.quiz.basic.QuizBasicIntro"
+        android:label="fragment_quiz_basic_intro"
+        tools:layout="@layout/fragment_quiz_basic_intro" >
+        <action
+            android:id="@+id/action_quizBasicIntro_to_quizBasicIntro2"
+            app:destination="@id/quizBasicIntro2" />
+        <action
+            android:id="@+id/action_quizBasicIntro_to_quizHomePage"
+            app:destination="@id/quizHomePage" />
+        <action
+            android:id="@+id/action_quizBasicIntro_to_playQuizBasic"
+            app:destination="@id/playQuizBasic" />
+    </fragment>
+    <fragment
+        android:id="@+id/quizBasicIntro2"
+        android:name="umn.ac.id.codek.quiz.basic.QuizBasicIntro2"
+        android:label="fragment_quiz_basic_intro2"
+        tools:layout="@layout/fragment_quiz_basic_intro2" >
+        <action
+            android:id="@+id/action_quizBasicIntro2_to_quizBasicPage"
+            app:destination="@id/quizBasicPage" />
+        <action
+            android:id="@+id/action_quizBasicIntro2_to_quizBasicIntro"
+            app:destination="@id/quizBasicIntro" />
+    </fragment>
+</navigation>

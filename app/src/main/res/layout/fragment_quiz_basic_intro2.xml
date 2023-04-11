@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".quiz.basic.QuizBasicIntro2"
+    android:background="@color/black">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <TextView
+            android:id="@+id/dataType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:text="@string/variables"
+            android:textSize="24sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="@dimen/_50sdp"
+            android:layout_marginStart="10dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dataType"
+            android:text="      We can think of a variable as a named storage box. We choose a name, perhaps variableA. These names are the programmer's access into the memory of the user's Android device. Variables are values in memory that are ready to be used when necessary by referring to them with their name."
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:justificationMode="inter_word"
+            android:textAlignment="textStart"/>
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv1"
+            android:text="      When we use our variable's name, the device knows exactly what we are referring to. We can then tell it to do things, such as assigning a value to a variableB or add variableA to variableB."
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:justificationMode="inter_word"
+            android:textAlignment="textStart"/>
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv2"
+            android:text="      Another common requirement in a computer program, including Android apps, is the right or wrong test. Computer programs represent right or wrong calculations using true and false. To cover these and many other types of data that you might want to store or manipulate, Kotlin uses variables of different types."
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:justificationMode="inter_word"
+            android:textAlignment="textStart"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2/4"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sdp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@id/nextBtnBasicIntro2"
+            app:layout_constraintStart_toEndOf="@id/backBtnBasicIntro2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="@dimen/_72sdp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/backBtnBasicIntro2"
+            android:layout_width="150dp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:background="@drawable/box"
+            android:backgroundTint="@color/Celadon_blue"
+            android:text="@string/back"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="@dimen/_70sdp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/nextBtnBasicIntro2"
+            android:layout_width="150dp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:background="@drawable/box"
+            android:backgroundTint="@color/Celadon_blue"
+            android:text="@string/next"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="@dimen/_70sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

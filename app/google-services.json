@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "51211525115",
+    "firebase_url": "https://codek-1265e-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "codek-1265e",
+    "storage_bucket": "codek-1265e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:51211525115:android:5de8e1b30db8eae75a495e",
+        "android_client_info": {
+          "package_name": "umn.ac.id.codek"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "51211525115-fdi9b7eqh0673n4nmfn80mlrt9j842q0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHnA1Ebn8VCIfHmFZMD23MvOnLha7k_LI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "51211525115-fdi9b7eqh0673n4nmfn80mlrt9j842q0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

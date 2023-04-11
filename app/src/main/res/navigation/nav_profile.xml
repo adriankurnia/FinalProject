@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_profile"
+    app:startDestination="@id/profileHomePage">
+
+    <fragment
+        android:id="@+id/profileHomePage"
+        android:name="umn.ac.id.codek.profile.ProfileHomePage"
+        android:label="fragment_profile_home_page"
+        tools:layout="@layout/fragment_profile_home_page" >
+        <action
+            android:id="@+id/action_profileHomePage_to_profileShopPage"
+            app:destination="@id/profileShopPage" />
+        <action
+            android:id="@+id/action_profileHomePage_to_profileInventoryPage"
+            app:destination="@id/profileInventoryPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileShopPage"
+        android:name="umn.ac.id.codek.profile.ProfileShopPage"
+        android:label="fragment_profile_shop_page"
+        tools:layout="@layout/fragment_profile_shop_page" >
+        <action
+            android:id="@+id/action_profileShopPage_to_profileHomePage"
+            app:destination="@id/profileHomePage" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileInventoryPage"
+        android:name="umn.ac.id.codek.profile.ProfileInventoryPage"
+        android:label="fragment_profile_inventory_page"
+        tools:layout="@layout/fragment_profile_inventory_page" >
+        <action
+            android:id="@+id/action_profileInventoryPage_to_profileHomePage"
+            app:destination="@id/profileHomePage" />
+    </fragment>
+</navigation>
